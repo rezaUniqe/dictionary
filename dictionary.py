@@ -26,6 +26,7 @@ def read_from_db(word):
     print("rows")
     for row in data:
         listbox.insert(END, row)
+
         print(row)
 
 
